@@ -1,0 +1,166 @@
+** Drc report for e-paper-esp32.kicad_pcb **
+** Created on 2026-08-16T22:27:50+0200 **
+
+** Found 18 DRC violations **
+[copper_edge_clearance]: Platinenkanten-Freiraum-Verstoß (Einschränkungen aus Platinenkonfiguration zum Rand Freiraum 19,69 mils; tatsächlich 0,00 mils)
+    Regel: Einschränkungen aus Platinenkonfiguration zum Rand; error
+    @(3702,49 mils, 1812,36 mils): Abschnitt von S1 auf Edge.Cuts
+    @(3717,81 mils, 1827,67 mils): Durchsteckpad SH5 [Net-(S1-SHIELD-PadSH1)] von S1
+[copper_edge_clearance]: Platinenkanten-Freiraum-Verstoß (Einschränkungen aus Platinenkonfiguration zum Rand Freiraum 19,69 mils; tatsächlich 0,00 mils)
+    Regel: Einschränkungen aus Platinenkonfiguration zum Rand; error
+    @(3702,49 mils, 2213,24 mils): Abschnitt von S1 auf Edge.Cuts
+    @(3717,81 mils, 2197,93 mils): Durchsteckpad SH6 [Net-(S1-SHIELD-PadSH1)] von S1
+[drill_out_of_range]: Lochgröße außerhalb des zulässigen Bereichs (Einschränkungen aus Platinenkonfiguration min Loch 11,81 mils; tatsächlich 7,87 mils)
+    Regel: Einschränkungen aus Platinenkonfiguration; error
+    @(2484,88 mils, 1244,37 mils): Durchsteckpad 41 [<no net>] von U1
+[drill_out_of_range]: Lochgröße außerhalb des zulässigen Bereichs (Einschränkungen aus Platinenkonfiguration min Loch 11,81 mils; tatsächlich 7,87 mils)
+    Regel: Einschränkungen aus Platinenkonfiguration; error
+    @(2484,88 mils, 1299,49 mils): Durchsteckpad 41 [<no net>] von U1
+[drill_out_of_range]: Lochgröße außerhalb des zulässigen Bereichs (Einschränkungen aus Platinenkonfiguration min Loch 11,81 mils; tatsächlich 7,87 mils)
+    Regel: Einschränkungen aus Platinenkonfiguration; error
+    @(2512,44 mils, 1216,81 mils): Durchsteckpad 41 [<no net>] von U1
+[drill_out_of_range]: Lochgröße außerhalb des zulässigen Bereichs (Einschränkungen aus Platinenkonfiguration min Loch 11,81 mils; tatsächlich 7,87 mils)
+    Regel: Einschränkungen aus Platinenkonfiguration; error
+    @(2512,44 mils, 1271,93 mils): Durchsteckpad 41 [<no net>] von U1
+[drill_out_of_range]: Lochgröße außerhalb des zulässigen Bereichs (Einschränkungen aus Platinenkonfiguration min Loch 11,81 mils; tatsächlich 7,87 mils)
+    Regel: Einschränkungen aus Platinenkonfiguration; error
+    @(2512,44 mils, 1327,04 mils): Durchsteckpad 41 [<no net>] von U1
+[drill_out_of_range]: Lochgröße außerhalb des zulässigen Bereichs (Einschränkungen aus Platinenkonfiguration min Loch 11,81 mils; tatsächlich 7,87 mils)
+    Regel: Einschränkungen aus Platinenkonfiguration; error
+    @(2540,00 mils, 1244,37 mils): Durchsteckpad 41 [<no net>] von U1
+[drill_out_of_range]: Lochgröße außerhalb des zulässigen Bereichs (Einschränkungen aus Platinenkonfiguration min Loch 11,81 mils; tatsächlich 7,87 mils)
+    Regel: Einschränkungen aus Platinenkonfiguration; error
+    @(2540,00 mils, 1299,49 mils): Durchsteckpad 41 [<no net>] von U1
+[drill_out_of_range]: Lochgröße außerhalb des zulässigen Bereichs (Einschränkungen aus Platinenkonfiguration min Loch 11,81 mils; tatsächlich 7,87 mils)
+    Regel: Einschränkungen aus Platinenkonfiguration; error
+    @(2567,56 mils, 1216,81 mils): Durchsteckpad 41 [<no net>] von U1
+[drill_out_of_range]: Lochgröße außerhalb des zulässigen Bereichs (Einschränkungen aus Platinenkonfiguration min Loch 11,81 mils; tatsächlich 7,87 mils)
+    Regel: Einschränkungen aus Platinenkonfiguration; error
+    @(2567,56 mils, 1271,93 mils): Durchsteckpad 41 [<no net>] von U1
+[drill_out_of_range]: Lochgröße außerhalb des zulässigen Bereichs (Einschränkungen aus Platinenkonfiguration min Loch 11,81 mils; tatsächlich 7,87 mils)
+    Regel: Einschränkungen aus Platinenkonfiguration; error
+    @(2567,56 mils, 1327,04 mils): Durchsteckpad 41 [<no net>] von U1
+[drill_out_of_range]: Lochgröße außerhalb des zulässigen Bereichs (Einschränkungen aus Platinenkonfiguration min Loch 11,81 mils; tatsächlich 7,87 mils)
+    Regel: Einschränkungen aus Platinenkonfiguration; error
+    @(2595,12 mils, 1244,37 mils): Durchsteckpad 41 [<no net>] von U1
+[drill_out_of_range]: Lochgröße außerhalb des zulässigen Bereichs (Einschränkungen aus Platinenkonfiguration min Loch 11,81 mils; tatsächlich 7,87 mils)
+    Regel: Einschränkungen aus Platinenkonfiguration; error
+    @(2595,12 mils, 1299,49 mils): Durchsteckpad 41 [<no net>] von U1
+[invalid_outline]: Platine hat fehlerhaften Umriss (Abschnitt hat keine oder sehr kleine Länge: 10 nm)
+    Lokale Überschreibung; error
+    @(3702,49 mils, 1812,36 mils): Abschnitt von S1 auf Edge.Cuts
+[invalid_outline]: Platine hat fehlerhaften Umriss (Abschnitt hat keine oder sehr kleine Länge: 10 nm)
+    Lokale Überschreibung; error
+    @(3702,49 mils, 2213,24 mils): Abschnitt von S1 auf Edge.Cuts
+[invalid_outline]: Platine hat fehlerhaften Umriss (selbstüberschneidend)
+    Lokale Überschreibung; error
+    @(3702,49 mils, 2213,24 mils): Abschnitt von S1 auf Edge.Cuts
+[invalid_outline]: Platine hat fehlerhaften Umriss (selbstüberschneidend)
+    Lokale Überschreibung; error
+    @(3702,49 mils, 1812,36 mils): Abschnitt von S1 auf Edge.Cuts
+
+** Found 25 unconnected pads **
+[unconnected_items]: Fehlende Verbindung zwischen Elementen
+    Lokale Überschreibung; error
+    @(3324,70 mils, 1700,53 mils): Pad 1 [+3.3V] von C4 auf F.Cu
+    @(3382,20 mils, 1700,53 mils): Pad 1 [+3.3V] von C3 auf F.Cu
+[unconnected_items]: Fehlende Verbindung zwischen Elementen
+    Lokale Überschreibung; error
+    @(3095,01 mils, 1702,50 mils): Pad 1 [+3.3V] von R7 auf F.Cu
+    @(3209,72 mils, 1702,50 mils): Pad 1 [+3.3V] von R2 auf F.Cu
+[unconnected_items]: Fehlende Verbindung zwischen Elementen
+    Lokale Überschreibung; error
+    @(3324,70 mils, 1700,53 mils): Pad 1 [+3.3V] von C4 auf F.Cu
+    @(3209,72 mils, 1702,50 mils): Pad 1 [+3.3V] von R2 auf F.Cu
+[unconnected_items]: Fehlende Verbindung zwischen Elementen
+    Lokale Überschreibung; error
+    @(3315,27 mils, 1566,32 mils): Pad 4 [+3.3V] von J6 auf F.Cu
+    @(3324,70 mils, 1700,53 mils): Pad 1 [+3.3V] von C4 auf F.Cu
+[unconnected_items]: Fehlende Verbindung zwischen Elementen
+    Lokale Überschreibung; error
+    @(3554,31 mils, 1702,50 mils): Pad 1 [+3.3V] von R5 auf F.Cu
+    @(3382,20 mils, 1700,53 mils): Pad 1 [+3.3V] von C3 auf F.Cu
+[unconnected_items]: Fehlende Verbindung zwischen Elementen
+    Lokale Überschreibung; error
+    @(3324,70 mils, 1639,51 mils): Pad 2 [GND] von C4 auf F.Cu
+    @(3382,20 mils, 1639,51 mils): Pad 2 [GND] von C3 auf F.Cu
+[unconnected_items]: Fehlende Verbindung zwischen Elementen
+    Lokale Überschreibung; error
+    @(3382,20 mils, 1639,51 mils): Pad 2 [GND] von C3 auf F.Cu
+    @(3401,88 mils, 1566,32 mils): Pad 6 [GND] von J6 auf F.Cu
+[unconnected_items]: Fehlende Verbindung zwischen Elementen
+    Lokale Überschreibung; error
+    @(2943,54 mils, 967,99 mils): Pad 40 [GND] von U1 auf F.Cu
+    @(3031,81 mils, 971,83 mils): Pad 11 [GND] von J6 auf F.Cu
+[unconnected_items]: Fehlende Verbindung zwischen Elementen
+    Lokale Überschreibung; error
+    @(3124,33 mils, 1566,32 mils): Pad 11 [GND] von J6 auf F.Cu
+    @(3324,70 mils, 1639,51 mils): Pad 2 [GND] von C4 auf F.Cu
+[unconnected_items]: Fehlende Verbindung zwischen Elementen
+    Lokale Überschreibung; error
+    @(3401,88 mils, 1566,32 mils): Pad 6 [GND] von J6 auf F.Cu
+    @(3563,30 mils, 1397,02 mils): Pad 11 [GND] von J6 auf F.Cu
+[unconnected_items]: Fehlende Verbindung zwischen Elementen
+    Lokale Überschreibung; error
+    @(3563,30 mils, 1397,02 mils): Pad 11 [GND] von J6 auf F.Cu
+    @(3563,30 mils, 989,54 mils): Pad 11 [GND] von J6 auf F.Cu
+[unconnected_items]: Fehlende Verbindung zwischen Elementen
+    Lokale Überschreibung; error
+    @(3031,81 mils, 971,83 mils): Pad 11 [GND] von J6 auf F.Cu
+    @(3563,30 mils, 989,54 mils): Pad 11 [GND] von J6 auf F.Cu
+[unconnected_items]: Fehlende Verbindung zwischen Elementen
+    Lokale Überschreibung; error
+    @(2943,54 mils, 967,99 mils): Pad 40 [GND] von U1 auf F.Cu
+    @(2254,57 mils, 967,99 mils): Pad 1 [GND] von U1 auf F.Cu
+[unconnected_items]: Fehlende Verbindung zwischen Elementen
+    Lokale Überschreibung; error
+    @(3358,58 mils, 1566,32 mils): Pad 5 [Net-(J6-CLK)] von J6 auf F.Cu
+    @(3439,66 mils, 1637,54 mils): Pad 2 [Net-(J6-CLK)] von R1 auf F.Cu
+[unconnected_items]: Fehlende Verbindung zwischen Elementen
+    Lokale Überschreibung; error
+    @(3152,26 mils, 1637,54 mils): Pad 2 [Net-(J6-DAT3/CD)] von R6 auf F.Cu
+    @(3228,66 mils, 1566,32 mils): Pad 2 [Net-(J6-DAT3/CD)] von J6 auf F.Cu
+[unconnected_items]: Fehlende Verbindung zwischen Elementen
+    Lokale Überschreibung; error
+    @(3445,19 mils, 1566,32 mils): Pad 7 [Net-(J6-DAT0)] von J6 auf F.Cu
+    @(3496,97 mils, 1637,54 mils): Pad 2 [Net-(J6-DAT0)] von R3 auf F.Cu
+[unconnected_items]: Fehlende Verbindung zwischen Elementen
+    Lokale Überschreibung; error
+    @(3267,44 mils, 1637,54 mils): Pad 2 [Net-(J6-CMD)] von R4 auf F.Cu
+    @(3271,96 mils, 1566,32 mils): Pad 3 [Net-(J6-CMD)] von J6 auf F.Cu
+[unconnected_items]: Fehlende Verbindung zwischen Elementen
+    Lokale Überschreibung; error
+    @(3209,72 mils, 1637,54 mils): Pad 2 [Net-(R2-Pad2)] von R2 auf F.Cu
+    @(3267,44 mils, 1702,50 mils): Pad 1 [Net-(R2-Pad2)] von R4 auf F.Cu
+[unconnected_items]: Fehlende Verbindung zwischen Elementen
+    Lokale Überschreibung; error
+    @(3496,97 mils, 1702,50 mils): Pad 1 [Net-(R3-Pad1)] von R3 auf F.Cu
+    @(3554,31 mils, 1637,54 mils): Pad 2 [Net-(R3-Pad1)] von R5 auf F.Cu
+[unconnected_items]: Fehlende Verbindung zwischen Elementen
+    Lokale Überschreibung; error
+    @(3095,01 mils, 1637,54 mils): Pad 2 [Net-(R6-Pad1)] von R7 auf F.Cu
+    @(3152,26 mils, 1702,50 mils): Pad 1 [Net-(R6-Pad1)] von R6 auf F.Cu
+[unconnected_items]: Fehlende Verbindung zwischen Elementen
+    Lokale Überschreibung; error
+    @(3566,14 mils, 1770,67 mils): Pad SH1 [Net-(S1-SHIELD-PadSH1)] von S1 auf F.Cu
+    @(3518,90 mils, 1821,85 mils): Pad SH3 [Net-(S1-SHIELD-PadSH1)] von S1 auf F.Cu
+[unconnected_items]: Fehlende Verbindung zwischen Elementen
+    Lokale Überschreibung; error
+    @(3518,90 mils, 2203,74 mils): Pad SH4 [Net-(S1-SHIELD-PadSH1)] von S1 auf F.Cu
+    @(3566,14 mils, 2254,92 mils): Pad SH2 [Net-(S1-SHIELD-PadSH1)] von S1 auf F.Cu
+[unconnected_items]: Fehlende Verbindung zwischen Elementen
+    Lokale Überschreibung; error
+    @(3717,81 mils, 1827,67 mils): Durchsteckpad SH5 [Net-(S1-SHIELD-PadSH1)] von S1
+    @(3566,14 mils, 1770,67 mils): Pad SH1 [Net-(S1-SHIELD-PadSH1)] von S1 auf F.Cu
+[unconnected_items]: Fehlende Verbindung zwischen Elementen
+    Lokale Überschreibung; error
+    @(3566,14 mils, 2254,92 mils): Pad SH2 [Net-(S1-SHIELD-PadSH1)] von S1 auf F.Cu
+    @(3717,81 mils, 2197,93 mils): Durchsteckpad SH6 [Net-(S1-SHIELD-PadSH1)] von S1
+[unconnected_items]: Fehlende Verbindung zwischen Elementen
+    Lokale Überschreibung; error
+    @(3717,81 mils, 2197,93 mils): Durchsteckpad SH6 [Net-(S1-SHIELD-PadSH1)] von S1
+    @(3717,81 mils, 1827,67 mils): Durchsteckpad SH5 [Net-(S1-SHIELD-PadSH1)] von S1
+
+** Found 0 Footprint errors **
+
+** End of Report **

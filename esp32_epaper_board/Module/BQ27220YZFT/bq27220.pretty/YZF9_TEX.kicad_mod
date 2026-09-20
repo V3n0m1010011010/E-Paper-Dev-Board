@@ -1,0 +1,225 @@
+(footprint "YZF9_TEX"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "BQ27220YZFT ")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "610b8cb7-5368-4290-beae-2ebb56007173")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "YZF9_TEX"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7b0328c9-7cb8-45f0-90e4-30423d90e910")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d1902d55-bc12-4fb8-aaf6-db5872d13a7f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5844987e-dc74-4267-ac7f-609a2001fed4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.9906 -0.9906)
+		(end 0.9906 -0.9906)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f5106693-17d1-447b-8864-0f6a56255acd")
+	)
+	(fp_line
+		(start -0.9906 0.9906)
+		(end -0.9906 -0.9906)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e1914e43-4f06-4536-8c73-358c01244227")
+	)
+	(fp_line
+		(start 0.9906 -0.9906)
+		(end 0.9906 0.9906)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f1c67d6c-221b-49f6-90e4-1f6b8f16a66a")
+	)
+	(fp_line
+		(start 0.9906 0.9906)
+		(end -0.9906 0.9906)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2cd2f7d5-e14b-435f-aadb-ce6ab74e9a92")
+	)
+	(fp_line
+		(start -0.7366 -0.7366)
+		(end -0.7366 0.7366)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "40307693-e390-4387-a312-aa52ca941f29")
+	)
+	(fp_line
+		(start -0.7366 0.7366)
+		(end 0.7366 0.7366)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b668709f-4afc-49f1-ba4c-61740c928724")
+	)
+	(fp_line
+		(start -0.4866 -0.7366)
+		(end -0.7366 -0.4866)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1f649e4b-6071-4272-926d-51ec1b7b3a62")
+	)
+	(fp_line
+		(start 0.7366 -0.7366)
+		(end -0.7366 -0.7366)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d84da7c4-7fed-4d70-800d-e19c79a8103c")
+	)
+	(fp_line
+		(start 0.7366 0.7366)
+		(end 0.7366 -0.7366)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8df68d2e-17a1-45ec-a53c-c294d89ca367")
+	)
+	(pad "A1" smd circle
+		(at -0.5 -0.5)
+		(size 0.3048 0.3048)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin 0)
+		(clearance 0)
+		(uuid "39e83a2e-98f3-4c0f-8d32-87258172900c")
+	)
+	(pad "A2" smd circle
+		(at 0 -0.5)
+		(size 0.3048 0.3048)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(clearance 0)
+		(uuid "091879a8-9f53-4276-87c1-44b71cd41d50")
+	)
+	(pad "A3" smd circle
+		(at 0.5 -0.5)
+		(size 0.3048 0.3048)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(clearance 0)
+		(uuid "33ee0fb8-31f9-4262-9a1b-f1d3692837e0")
+	)
+	(pad "B1" smd circle
+		(at -0.5 0)
+		(size 0.3048 0.3048)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(clearance 0)
+		(uuid "fc8bad3e-441f-4966-9b11-4a0d4567179b")
+	)
+	(pad "B2" smd circle
+		(at 0 0)
+		(size 0.3048 0.3048)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(clearance 0)
+		(uuid "6d492041-110a-4179-b432-f07a81691f3e")
+	)
+	(pad "B3" smd circle
+		(at 0.5 0)
+		(size 0.3048 0.3048)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(clearance 0)
+		(uuid "46b5019d-a1e6-4f56-b6f2-b955b3b807cd")
+	)
+	(pad "C1" smd circle
+		(at -0.5 0.5)
+		(size 0.3048 0.3048)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(clearance 0)
+		(uuid "15f51cbe-ef47-4ef9-ac08-6f763e4bc55e")
+	)
+	(pad "C2" smd circle
+		(at 0 0.5)
+		(size 0.3048 0.3048)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(clearance 0)
+		(uuid "3f97771e-3b82-4553-b59e-1122385d87c2")
+	)
+	(pad "C3" smd circle
+		(at 0.5 0.5)
+		(size 0.3048 0.3048)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(clearance 0)
+		(uuid "5d812795-452b-4435-80f6-c90ad62df8cd")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/Crazy/Documents/KiCad/tets/esp32_epaper_board/Module/BQ27220YZFT/bq27220.pretty/YZF9_TEX.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
